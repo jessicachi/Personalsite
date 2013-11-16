@@ -1,0 +1,150 @@
+
+/* Jessica's css*/
+
+@import "css/bootstrap.css";
+@import "css/bootstrap-responsive.css";
+
+/* overrides bootstraps body properties*/
+body {
+	
+}
+
+
+
+/* picture*/
+.landingpage{
+	
+	background: url(img/highpark.jpg) right center;
+	height: 100%;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-size: 50%;
+	margin-top: 0%;
+
+
+}
+
+div.text{
+
+	background-color: forestgreen ;
+	opacity:0.5;
+	height:100%;
+	margin-top: 0%;
+	margin-right:50%;
+	position: absolute;
+
+
+}
+
+/*.text p {
+	text-align: center;
+	vertical-align: middle;
+	color:white;
+	font-size: 20;
+}*/
+
+
+.description h1{
+	position: relative;
+	left:50px;
+	font-weight: bold;
+	font-size: 40;
+}
+.description hr{
+	margin-left: 0%;
+}
+
+.description{
+	width: 80%;
+	height:80%;
+	left: 70px;
+	top:20px;
+	color:white;
+	font-weight: bold;
+	font-family: "Avant Garde",
+	Avantgarde, "Century Gothic", 
+	CenturyGothic, "AppleGothic", sans-serif;;
+	position: relative;
+}
+
+/* bottom nav bar style */
+
+.nav >li>a:hover{
+	background-color:forestgreen;
+	opacity: 0.5;
+}
+
+a:hover{
+	color:white;
+	font-weight: bold;
+}
+/*ignore
+.socialmedia{
+	background-color: white;
+	opacity: 0.6;
+	width: 70%;
+	height:30%;
+	margin-top: 30%;
+	margin-left: 15%;
+	position: relative;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.socialmedia p{
+	color: red;
+}
+
+*/
+
+.resume {
+	height:100%;
+	position: relative;
+}
+.resume h1{
+	color: forestgreen;
+	opacity: 0.5;
+}
+
+.resumecontent{
+	position: relative;
+	top:100px;
+}
+
+.contact{
+	height:100%;
+	color: white;
+}
+
+.contact-info{
+	position: relative;
+	height: 250px;
+	width: 500px;
+	opacity: 0.5;
+	background-color: forestgreen;
+	left: 300px;
+	top:150px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+
+}
+
+hr{
+	width: 80%;
+	color: forestgreen;
+}
+
+.work h1{
+	color:forestgreen;
+	opacity: 0.5;
+
+}
+
+.carousel-inner{
+	height: 1400px;
+}

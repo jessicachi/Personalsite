@@ -1,0 +1,12 @@
+<!-- override some things in bootstrap-->
+
+body .jumbotron#about {
+
+background-image:url('highpark.jpg');
+	
+}
+
+body .jumbotron h1 {
+  line-height: 5;
+  color: "#E0115A";
+}
